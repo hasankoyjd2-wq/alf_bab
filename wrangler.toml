@@ -1,10 +1,9 @@
 # worker/wrangler.toml
 #
-# غيّر "name" و "your-account-subdomain" حسب حسابك.
-# بعد wrangler deploy تصير الروابط بصيغة:
-#   https://alfbab-books.<your-account-subdomain>.workers.dev/6.zstd
+# رابط الكتب الفعلي بعد النشر:
+#   https://alf-bab.hasankoyjd2.workers.dev/6.zstd
 
-name = "alfbab-books"
+name = "alf-bab"
 main = "src/index.js"
 compatibility_date = "2026-09-01"
 
