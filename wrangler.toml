@@ -1,0 +1,13 @@
+# worker/wrangler.toml
+#
+# غيّر "name" و "your-account-subdomain" حسب حسابك.
+# بعد wrangler deploy تصير الروابط بصيغة:
+#   https://alfbab-books.<your-account-subdomain>.workers.dev/6.zstd
+
+name = "alfbab-books"
+main = "src/index.js"
+compatibility_date = "2026-09-01"
+
+[[r2_buckets]]
+binding = "ALFBAB_BUCKET"
+bucket_name = "alfbab"
